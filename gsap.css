@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family:   sans-serif;
+    background-color: rgba(16, 16, 16, 0.831);
+    color: #fff;
+}
+main{
+    width: 100%;
+    height: 100%;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    height: 50px;
+   
+   
+   
+}
+.nav2 {
+    display: flex;
+    gap: 50px;
+}
+.nav h3 {
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    
+   
+}
+img{
+ 
+  width: 300px;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  z-index: -1;
+  border: 50%;
+}
+.img1{
+    rotate: 20deg;
+}
+.img2{
+    rotate: 10deg;
+}
+h1{
+    position: relative;
+    font-size: 170px;
+    text-transform: uppercase;
+    line-height: 140px;
+    font-weight: 500;
+    width: 70%;
+    margin-left: 20%;
+    background: linear-gradient(to right, #e95186c8 30%, rgba(8, 134, 212, 0.89));
+    background-size: 100% auto;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: grad 4s linear infinite;
+}
+.main h1:nth-child(2){
+    margin-top: 130px;
+}
+.main h1:nth-child(3){
+    text-align: center;
+}
+.main h1:nth-child(4){
+    text-align: center;
+}
+@keyframes grad {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+       background-color: rgb(1, 254, 254);
+    }
+    100%{
+        background-position: 50% 70%;
+
+    }
+
+}
+
+@media screen { 
+    
+}
